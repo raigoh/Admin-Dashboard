@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--Header section-->
+      <div class="header">
+        <div class="top">
+          <div class="search">
+            <label for="search"
+              ><span class="material-icons-outlined search-icon">
+                search
+              </span></label
+            >
+            <input type="text" name="search" id="search" />
+          </div>
+          <div class="account">
+            <button>
+              <span class="material-icons-outlined">
+                notifications_active
+              </span>
+            </button>
+            <div class="picture"></div>
+            <p class="name">Raigo Hõim</p>
+          </div>
+        </div>
+
+        <div class="bottom">
+          <div class="profile">
+            <div class="picture"></div>
+            <div class="profile-name">
+              <p class="greeting">Hi there,</p>
+              <p class="name">
+                Raigo Hõim <span class="username">(@vikationu)</span>
+              </p>
+            </div>
+          </div>
+          <div class="buttons">
+            <a href="#" class="btn">New</a>
+            <a href="#" class="btn">Upload</a>
+            <a href="#" class="btn">Share</a>
+          </div>
+        </div>
+      </div>
+
+        <div class="sidebar">
+          <h1 class="sidebar-title">
+            <span class="material-icons"> dashboard </span>
+            Dashboard
+          </h1>
+          <ul class="nav">
+            <li class="nav-item current">
+              <a href="#" class="nav-link"
+                ><span class="material-icons"> home </span> Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                ><span class="material-icons-outlined"> account_circle </span>
+                Profile</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                ><span class="material-icons-outlined"> message </span>
+                Messages</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                ><span class="material-icons-outlined"> history </span>
+                History</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                ><span class="material-icons-outlined"> task </span> Tasks</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                ><span class="material-icons-outlined"> groups </span>
+                Communities</a
+              >
+            </li>
+            <br>
+          </ul>
+          <ul class="nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                ><span class="material-icons-outlined"> settings </span>
+                Settings</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                ><span class="material-icons-outlined"> help_center </span>
+                Support</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                ><span class="material-icons-outlined"> verified_user </span>
+                Privacy</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="projects">
+          <h3>Your Projects</h3>
+          <div class="cards">
+            <!--  -->
+              <div class="card">
+                <h5 class="card-title">Portfolio</h5>
+                <p class="card-text"></p>
+                <div class="actions">
+                  <span class="material-icons-outlined like-icon" data-liked="false"> favorite </span>
+                  <a href="https://raigo-portfolio.netlify.app/#home" target="_blank">
+                    <span class="material-icons-outlined" alt="preview"> preview </span>
+                  </a>
+                  <a href="https://github.com/raigoh/Portfolio" target="_blank">
+                    <span class="material-icons-outlined" alt="code"> code </span>
+                  </a>
+                </div>
+              </div>
+            </a>
+              <div class="card">
+                <h5 class="card-title">Sign-up Form</h5>
+                <p class="card-text"></p>
+                <div class="actions">
+                  <span class="material-icons-outlined like-icon" data-liked="false"> favorite </span>
+                  <a href="https://rsignup.netlify.app/" target="_blank">
+                    <span class="material-icons-outlined" alt="preview"> preview </span>
+                  </a>
+                  <a href="https://github.com/raigoh/Sign-up-Form" target="_blank">
+                    <span class="material-icons-outlined" alt="code"> code </span>
+                  </a>
+                </div>
+              </div>
+            </a>
+              <div class="card">
+                <h5 class="card-title">Battleship</h5>
+                <p class="card-text"></p>
+                <div class="actions">
+                  <span class="material-icons-outlined like-icon" data-liked="false"> favorite </span>
+                  <a href="https://github.com/raigoh/Battleship" target="_blank">
+                    <span class="material-icons-outlined" alt="code"> code </span>
+                  </a>
+                </div>
+              </div>
+            </a>
+              <div class="card">
+                <h5 class="card-title">Admin Dashboard</h5>
+                <p class="card-text"></p>
+                <div class="actions">
+                  <span class="material-icons-outlined like-icon" data-liked="false"> favorite </span>
+                  <a href="" target="_blank">
+                    <span class="material-icons-outlined" alt="preview"> preview </span>
+                  </a>
+                  <a href="https://github.com/raigoh/" target="_blank">
+                    <span class="material-icons-outlined" alt="code"> code </span>
+                  </a>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
